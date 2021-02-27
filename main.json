@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"gordonspace.json"
+         "target":"main.json"
         }
     },
  "height":10,
@@ -77,8 +77,27 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":8,
          "firstgid":1,
-         "source":"gordonspace.tsx"
+         "image":"[Base]BaseChip_pipo+ (1).png",
+         "imageheight":3616,
+         "imagewidth":256,
+         "margin":0,
+         "name":"gordonspace",
+         "spacing":0,
+         "tilecount":904,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":292,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
